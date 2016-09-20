@@ -1,12 +1,12 @@
 # Basic Website
 
-(This website)[https://mpcs53001.cs.uchicago.edu/~ahmed1/SoundCloud/HomePage/Final.html] shows basic web development skills. It is backed by a mySQL database with dummy data for users, songs, playlists and other items needed. 
+[This website](https://mpcs53001.cs.uchicago.edu/~ahmed1/SoundCloud/HomePage/Final.html) shows basic web development skills. It is backed by a mySQL database with dummy data for users, songs, playlists and other items needed. 
 
 Users can create a new username/password. Manage their account and items that are written to the database. 
 
 ## SoundCloud Directory
 
-This directory contains all the html, php, SQL, cs and config files.
+This directory contains all the HTML, PHP, SQL, CSS and config files.
 
 ## FreshData
 
