@@ -1,0 +1,80 @@
+/*  . is class and # uses id in html    */
+
+
+
+/*  or you can specify styles generally for all elements
+of a certain type like "p" paragraphs 
+
+to override this use !important or something for example
+
+     */
+
+
+
+body {
+    /*background-color: #d0e4fe;*/
+    font-family: "Interstate", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+    /*color: #f50;*/
+
+}
+
+@keyframes fade-in {
+    from {background-color: d9d9d9;
+    	/*color: black;*/
+    }
+    to {background-color: f2f2f2;
+    	/*color: f2f2f2;*/
+    }
+}
+
+div {
+	background-color: f2f2f2;
+}
+
+div:hover {
+	/*color: f2f2f2;*/
+	background-color: f2f2f2;
+	-webkit-animation: fade-in 1s;
+	-webkit-border-radius: 5px;
+}
+
+h1 {
+	font-family: "Interstate", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Garuda, Verdana, Tahoma, sans-serif;
+	font-style: normal;
+	background-color: ;
+
+}
+
+a:link {
+	color: #f50;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #f50;
+}
+
+a:hover {
+	text-decoration: none;
+
+}
+
+a:active {
+
+}
+
+.submit {
+	/*color:white ;
+	background-color:#f50 ;*/
+
+	color:#f50 ;
+	background-color: ;
+
+}
+
+.submit:hover {
+	color: #f50;
+	background-color: white;
+	box-shadow:none;
+  	-webkit-border-radius: 5px;
+}

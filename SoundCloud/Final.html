@@ -1,0 +1,93 @@
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+	<head>
+	<title>SoundCloud Data</title>
+	<LINK href= "SoundcloudStyles.css" type = "text/css" rel = "stylesheet">
+	</head>
+
+<body>
+
+	<h1>SoundCloud Data</h1>
+
+	Welcome to SoundCloud, join our community, contribute tracks, and playlists and join music groups!!
+	<br>
+
+	<div>
+	Sign up here: 
+	<a href= "http://cgi-cspp.cs.uchicago.edu/~ahmed1/cs53001/signUp.html"> Sign Up </a>
+
+
+
+	<div>
+	First, a link to a php script (<code>list_tables.php</code>) that list all tables in
+	my database:
+	<a href="list_tables.php">List your tables!</a>
+	<hr>
+	</div>
+	
+
+	<div>	
+	Find out who's in this database by showing userID and name.
+	<a href="show_users.php">Show users</a>
+	<hr>
+	</div>
+
+	<div>
+	Get the poster of a particular track.
+	<a href="show_tracks">Show tracks</a>
+	<p>
+	<form method=get action="songAuthor.php">
+	<b>Enter Song title:</b><br />
+	<input type="text" name="trackName"><br/>
+	<input type="submit" value="Submit" class="submit">
+	</form>
+	</p>
+	<hr>
+	</div>
+
+	<div>
+	Enter a tag to find playlists and tracks you'll like, for a list of tags, <a href="tagList.php"> click here </a>
+	<p>
+	<form method=get action="taggedPlaylist.php">
+	<b>Enter tag name:</b><br />
+	<input type="text" name="tagName"><br />
+	<input type="submit" value="Submit" class="submit">
+	</form>
+	</p>
+	<hr>
+	</div>
+
+	<div>
+	See who the moderator of a group is
+	<a href="show_groups">Show groups</a>
+	<p>
+	<form method=get action="findModerator.php">
+	<b>Enter group name:</b><br />
+	<input type="text" name="groupName"><br />
+	<input type="submit" value="Submit" class="submit">
+	</form>
+	</p>
+	<hr>
+	</div>
+
+	<div>
+	The ten most popular tracks
+	<a href="topTenTracks.php"> Show the top ten </a>
+	<hr>
+	</div>
+
+	<div>
+	Find the top ten people who have published the most tracks
+	<a href="mostProlificPublishers.php">Show the top ten</a>
+	<hr>
+	</div>
+
+	<div>
+	Find the people who publish the 10 most popular playlists 
+	<a href="topTenPlaylistPublishers.php">Show the top ten</a>
+	<hr>
+	</div>
+
+</body>
+</html>
